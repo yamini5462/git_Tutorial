@@ -2,11 +2,11 @@
     function f1(){
         var now=new Date();
         document.write("now="+now);
-        if(now.getHours()>0 && now.getHours()<=12){ 
+        if( now.getHours()<=12){ 
             document.write("Good Morning");
-        }else if(now.getHours()<=13 && now.getHours()<=17){
+        }else if( now.getHours()<=17){
             document.write("Good Afternoon");
-        }else if(now.getHours()>=18 && now.getHourse()<=23){
+        }else if(now.getHourse()<=23){
             document.write("Good Evening");
         }
     }
